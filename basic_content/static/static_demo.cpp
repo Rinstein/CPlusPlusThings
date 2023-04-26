@@ -6,6 +6,7 @@ using namespace std;
 
 void demo() {
   // static variable
+  // 可以在函数的多次调用中重复使用该值，因为静态变量只被初始化一次
   static int count = 0;
   cout << count << " ";
 

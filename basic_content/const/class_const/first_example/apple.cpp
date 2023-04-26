@@ -15,6 +15,6 @@ void Apple::take(int num) const {
 }
 int Apple::getCount() const {
   take(1);
-  //    add(); //error
+  // add(10); //error
   return apple_number;
 }

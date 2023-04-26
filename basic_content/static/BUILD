@@ -31,8 +31,14 @@ cc_binary(
 )
 
 cc_binary(
-    name = "static_funciton",
+    name = "static_function",
     srcs = ["static_funciton.cpp"],
+    copts = ["-std=c++11"]
+)
+
+cc_binary(
+    name = "static_extern",
+    srcs = ["source1.cpp", "source2.cpp"],
     copts = ["-std=c++11"]
 )
 
