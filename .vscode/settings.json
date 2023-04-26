@@ -108,5 +108,6 @@
         "typeindex": "cpp",
         "valarray": "cpp",
         "variant": "cpp"
-    }
+    },
+    "markdown.preview.fontSize": 18
 }
