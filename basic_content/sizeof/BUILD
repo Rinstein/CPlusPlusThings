@@ -49,3 +49,9 @@ cc_binary(
     srcs = ["virmoreinhe.cpp"],
     copts = ["-std=c++11"]
 )
+
+cc_binary(
+    name = "morevir",
+    srcs = ["morevir.cpp"],
+    copts = ["-std=c++11"]
+)

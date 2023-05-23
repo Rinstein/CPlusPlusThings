@@ -56,6 +56,8 @@ int main() {
   cout << sizeof(B) << endl; // 16
   cout << sizeof(C) << endl; // 12
 
+  B b = B();
+  // cout<<b.a<<endl;
   /**
    * @brief 对于虚单函数继承，派生类也继承了基类的vptr，所以是8字节
    */
